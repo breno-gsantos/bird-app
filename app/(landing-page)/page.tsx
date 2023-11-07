@@ -1,9 +1,11 @@
-import Logo from "./Navbar/_components/logo";
+import FirstSection from "./FirstSection/page";
+import Navbar from "./Navbar/navbar";
 
 export default function LandingPage() {
     return (
         <div>
-            <Logo />
+             <Navbar />
+             <FirstSection />
         </div>
-    )
+    );
 }

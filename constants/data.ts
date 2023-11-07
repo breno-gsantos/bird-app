@@ -30,3 +30,23 @@ export const NavLinks = [
         label: 'About'
     }
 ]
+
+export const MotionImages = [
+    {
+        id: 1,
+        src: '/images/tab-1.webp',
+        alt: 'illustration'
+    },
+    {
+        id: 2,
+        src: '/images/tab-2.webp',
+        alt: 'illustration'
+    },
+    {
+        id: 3,
+        src: '/images/tab-3.webp',
+        alt: 'illustration'
+    },
+]
+
+

@@ -1,6 +1,9 @@
+'use client'
+
 import Link from "next/link";
 import {motion} from 'framer-motion';
 import Image from "next/image";
+import { MotionImages } from "@/constants/data";
 
 export default function FirstSection() {
     return (
@@ -22,9 +25,11 @@ export default function FirstSection() {
                 </div>
             </div>
             <div className="md:pt-10 items-center space-y-10 md:flex justify-center md:mx-auto md:space-x-10">
-                <motion.div initial = {{y:100, opacity: 0}} animate = {{y: 0, opacity: 1}} className="px-10 md:px-0">
-                    <Image src='' alt="illustration" width={500} height={500}/>
-                </motion.div>
+                {MotionImages.map((item) => (
+                    <motion.div  key={item.id} initial = {{y:100, opacity: 0}} animate = {{y: 0, opacity: 1}} className="px-10 md:px-0">
+                        <Image src={item.src} alt={item.alt} width={500} height={500}/>
+                    </motion.div>
+                ))}
             </div>
         </section>
     )

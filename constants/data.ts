@@ -143,3 +143,24 @@ export const SectionThree = [
     }
 ]
 
+export const SectionFour = [
+    {
+        id: 1,
+        src: '/images/tab-1.webp',
+        paragraph: 'See how work maps out over time. Manage dependent, overlapping, and unscheduled tasks and create plans your team can count on',
+        title: 'Timeline'
+    },
+    {
+        id: 2,
+        src: '/images/tab-2.webp',
+        paragraph: 'Make it easy for your team to focus on tasks currently at hand. Define each stage of work to see what is important and where things are getting stuck.',
+        title: 'Boards'
+    },
+    {
+        id: 3,
+        src: '/images/tab-3.webp',
+        paragraph: 'See how work maps out over time. Manage dependent, overlapping, and unscheduled tasks—and create plans your team can count on.',
+        title: 'Organization'
+    },
+]
+

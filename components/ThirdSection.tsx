@@ -15,8 +15,7 @@ const ThirdSection = () => {
 
   
   return (
-    <div >
-      <motion.div ref = {ref} initial={{ y: 100, opacity: 0 }}   animate={{ y: 0, opacity: 1 }} transition={{ duration: 4 }} className="flex flex-col space-y-10 ">
+      <motion.div ref = {ref} initial={{ y: 100, opacity: 0 }}   animate={{ y: 0, opacity: 1 }} transition={{ duration: 3 }} className="flex flex-col space-y-10 ">
         <div className="py-20 bg-[#097969] items-center flex flex-col space-y-10">
           <div className="text-white text-4xl px-10 md:px-0  md:text-6xl md:pb-10 flex items-start justify-start ">Why companies choose Bird</div>
           <div className="md:w-3/4 px-10">
@@ -27,11 +26,10 @@ const ThirdSection = () => {
                     <div className="md:w-1/2 hidden md:block">{item.text}</div>
                 </div>
             ))}
-            <Button className="mt-10 text-lg" size='big' variant='secondary'>See how it works</Button>
+            <Button className="hidden md:block mt-10 text-lg" size='big' variant='secondary'>See how it works</Button>
           </div>
         </div>
       </motion.div>
-    </div>
   );
 };
 

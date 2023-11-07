@@ -1,3 +1,4 @@
+import FifthSection from "@/components/FifthSection";
 import FirstSection from "@/components/FirstSection";
 import FourthSection from "@/components/FourthSection";
 import Navbar from "@/components/Navbar/navbar";
@@ -13,6 +14,7 @@ export default function LandingPage() {
              <SecondSection />
              <ThirdSection />
              <FourthSection />
+             <FifthSection />
         </div>
     );
 }

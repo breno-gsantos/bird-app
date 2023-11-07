@@ -164,3 +164,14 @@ export const SectionFour = [
     },
 ]
 
+export const Accordions = [
+    {
+        id: 1,
+        title: 'Automate your workflows',
+        paragraph: 'Put tasks on autocopilot like assigning work, setting due dates, and more.',
+        classNameTrigger: 'text-blue-400',
+        classNameContent: 'border-b border-blue-500',
+        buttonClassName: 'flex text-lg px-0 mt-4 hover:bg-blue-500'
+    },
+]
+

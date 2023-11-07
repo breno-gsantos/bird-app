@@ -14,7 +14,7 @@ export default function SecondSection() {
     const [activeTab, setActiveTab] = useState(tabs[0])
 
     return (
-        <div ref={ref} className="flex flex-col justify-center items-center md:py-20 p-10">
+        <section ref={ref} className="flex flex-col justify-center items-center md:py-20 p-10">
             <div className="flex justify-center items-center">
                 <div style={{transform: `translateY(${isInView ? 0 : 100})`, opacity: isInView ? 1 : 0, transition: 'all 1s ease-in-out'}} className="md:flex md:space-x-20 border-b md:py-10">
                     <div className="space-y-10">
@@ -75,6 +75,6 @@ export default function SecondSection() {
                         </div>
                     )}
                 </div>
-        </div>
+        </section>
     )
 }

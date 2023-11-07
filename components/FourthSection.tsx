@@ -1,7 +1,4 @@
-'use client'
-
 import { SectionFour } from '@/constants/data';
-import { motion, useAnimation } from 'framer-motion';
 import Image from 'next/image';
 import { Button } from './ui/button';
 import { ArrowRight } from 'lucide-react';
@@ -9,7 +6,7 @@ import { ArrowRight } from 'lucide-react';
 
 export default function FourthSection() {
     return (
-        <div className='flex flex-col space-y-10 items-center justify-center px-20'>
+        <section className='flex flex-col space-y-10 items-center justify-center px-20'>
             <div className='flex py-20'>
                 <div className='space-y-6 flex flex-col'>
                     <h1 className='text-gray-800 text-xl px-10'>DRIVE EFFICIENCY ACROSS TEAMS</h1>
@@ -30,6 +27,6 @@ export default function FourthSection() {
                         ))}
                 </div>
             </div>
-        </div>
+        </section>
     )
 }

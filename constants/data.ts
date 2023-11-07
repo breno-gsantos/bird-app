@@ -1,3 +1,5 @@
+import { CheckCircle2 } from "lucide-react"
+
 export const NavLinks = [
     {
         id:1,
@@ -120,4 +122,24 @@ export const MotionLogo = [
     }
 ]
 
+export const SectionThree = [
+    {
+        id: 1,
+        icon: CheckCircle2,
+        title: 'The only platform that brings together your content and conversations',
+        text: 'See related tasks, collaborators and progress to quickly achieve business goals.'
+    },
+    {
+        id: 2,
+        icon: CheckCircle2,
+        title: 'Rated best for cross-team collaboration',
+        text: 'Bird is rated as a leader in work management by industry experts.'
+    },
+    {
+        id: 3,
+        icon: CheckCircle2,
+        title: 'Simple adoption, with less downtime',
+        text: 'Get tailored support to help your teams easily migrate existing data and adopt Bird.'
+    }
+]
 

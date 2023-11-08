@@ -1,4 +1,4 @@
-import { CheckCircle2 } from "lucide-react"
+import { CheckCircle2, Facebook, Instagram, Linkedin, Twitter, Youtube } from "lucide-react"
 
 export const NavLinks = [
     {
@@ -221,5 +221,28 @@ export const ImagesSeventh = [
         id: 3,
         src: '/images/tab-3.webp'
     },
+]
+
+export const socialLinks = [
+    {
+        id: 1,
+        social: Twitter  
+    },
+    {
+        id: 2,
+          social: Linkedin  
+      },
+      {
+        id: 3,
+          social: Instagram  
+      },
+      {
+        id: 4,
+          social: Facebook  
+      },
+      {
+        id: 5,
+          social: Youtube  
+      },
 ]
 

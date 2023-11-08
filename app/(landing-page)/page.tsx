@@ -1,3 +1,4 @@
+import EighthSection from "@/components/EighthSection";
 import FifthSection from "@/components/FifthSection";
 import FirstSection from "@/components/FirstSection";
 import FourthSection from "@/components/FourthSection";
@@ -19,6 +20,7 @@ export default function LandingPage() {
              <FifthSection />
              <SixthSection />
              <SeventhSection />
+             <EighthSection />
         </div>
     );
 }

@@ -175,3 +175,36 @@ export const Accordions = [
     },
 ]
 
+export const SliderLogos = [
+    {
+        src: '/images/logo/logo-15.svg'
+    },
+    {
+        src: '/images/logo/logo-13.svg'
+    },
+    {
+        src: '/images/logo/logo-16.svg'
+    },
+    {
+        src: '/images/logo/logo-17.svg'
+    },
+    {
+        src: '/images/logo/logo-18.svg'
+    },
+    {
+        src: '/images/logo/logo-19.svg'
+    },
+    {
+        src: '/images/logo/logo-14.svg'
+    },
+    {
+        src: '/images/logo/logo-13.svg'
+    },
+    {
+        src: '/images/logo/logo-15.svg'
+    },
+    {
+        src: '/images/logo/logo-13.svg'
+    },
+]
+

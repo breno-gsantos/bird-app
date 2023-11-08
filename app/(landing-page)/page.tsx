@@ -3,6 +3,7 @@ import FirstSection from "@/components/FirstSection";
 import FourthSection from "@/components/FourthSection";
 import Navbar from "@/components/Navbar/navbar";
 import SecondSection from "@/components/SecondSection";
+import SixthSection from "@/components/SixthSection/SixthSection";
 import ThirdSection from "@/components/ThirdSection";
 
 
@@ -15,6 +16,7 @@ export default function LandingPage() {
              <ThirdSection />
              <FourthSection />
              <FifthSection />
+             <SixthSection />
         </div>
     );
 }

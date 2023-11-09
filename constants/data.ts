@@ -246,3 +246,41 @@ export const socialLinks = [
       },
 ]
 
+export const options = [
+    {
+      index: 0,
+      title: "Marketing",
+      description: "Plan and execute your campaigns with Timeline view. Align your team on top priorities and deliver fast results.",
+      action: "Explore Marketing ",
+      image: "/images/tab-3.webp"
+    },
+    {
+      index: 1,
+      title: "Operations",
+      description: "Plan and execute your campaigns with Timeline view. Align your team on top priorities and deliver fast results.",
+      action: "Explore Operations ",
+      image: "/images/tab-2.webp"
+    },
+    {
+      index: 2,
+      title: "IT",
+      description: "Plan and execute your campaigns with Timeline view. Align your team on top priorities and deliver fast results.",
+      action: "Explore IT  ",
+      image: "/images/tab-3.webp"
+    },
+    {
+      index: 3,
+      title: "Product",
+      description: "Plan and execute your campaigns with Timeline view. Align your team on top priorities and deliver fast results.",
+      action: "Explore Product ",
+      image: "/images/tab-1.webp"
+    },
+    {
+      index: 4,
+      title: "Sales",
+      description: "Plan and execute your campaigns with Timeline view. Align your team on top priorities and deliver fast results.",
+      action: "Explore Sales ",
+      image: "/images/tab-2.webp"
+    }
+]
+

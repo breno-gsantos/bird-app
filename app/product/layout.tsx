@@ -4,6 +4,7 @@ import '../globals.css'
 import ProductNavbar from '@/components/Home/Navbar/productNavbar'
 import FirstSection from '@/components/Products/FirstSection'
 import SecondSection from '@/components/Products/SecondSection'
+import ThirdSection from '@/components/Products/ThirdSection'
 
 const outfit = Outfit({ subsets: ['latin'] })
 
@@ -23,6 +24,7 @@ export default function RootLayout({
         <ProductNavbar />
         <FirstSection />
         <SecondSection />
+        <ThirdSection />
         {children}
         </body>
     </html>

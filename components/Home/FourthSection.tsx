@@ -1,6 +1,6 @@
 import { SectionFour } from '@/constants/data';
 import Image from 'next/image';
-import { Button } from './ui/button';
+import { Button } from '@/components/ui/button';
 import { ArrowRight } from 'lucide-react';
 
 

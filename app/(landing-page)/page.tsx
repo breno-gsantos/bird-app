@@ -1,13 +1,13 @@
-import EighthSection from "@/components/EighthSection";
-import FifthSection from "@/components/FifthSection";
-import FirstSection from "@/components/FirstSection";
-import Footer from "@/components/Footer";
-import FourthSection from "@/components/FourthSection";
-import Navbar from "@/components/Navbar/navbar";
-import SecondSection from "@/components/SecondSection";
-import SeventhSection from "@/components/SeventhSection";
-import SixthSection from "@/components/SixthSection/SixthSection";
-import ThirdSection from "@/components/ThirdSection";
+import EighthSection from "@/components/Home/EighthSection";
+import FifthSection from "@/components/Home/FifthSection";
+import FirstSection from "@/components/Home/FirstSection";
+import Footer from "@/components/Home/Footer";
+import FourthSection from "@/components/Home/FourthSection";
+import Navbar from "@/components/Home/Navbar/navbar";
+import SecondSection from "@/components/Home/SecondSection";
+import SeventhSection from "@/components/Home/SeventhSection";
+import SixthSection from "@/components/Home/SixthSection/SixthSection";
+import ThirdSection from "@/components/Home/ThirdSection";
 
 
 export default function LandingPage() {

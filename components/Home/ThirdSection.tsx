@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 import { useRef } from "react";
 import { useInView } from "framer-motion";
 import { SectionThree } from "@/constants/data";
-import { Button } from "./ui/button";
+import { Button } from "@/components/ui/button";
 
 
 const ThirdSection = () => {

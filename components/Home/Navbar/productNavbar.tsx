@@ -23,7 +23,7 @@ export default function ProductNavbar() {
         }
     }, [])
 
-    const navbarClasses = `flex items-center justify-center space-x-10 md:px-10 ${hasScrolled ? "shadow-sm" : ""} `;
+    const navbarClasses = `flex items-center justify-center space-x-10 md:px-10 bg-[#fff] sticky top-0 z-50 ${hasScrolled ? "shadow-sm" : ""} `;
     
 
     return (

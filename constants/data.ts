@@ -284,3 +284,24 @@ export const options = [
     }
 ]
 
+export const LogoSection = [
+    {
+        id: 1,
+        src: '/images/logo/logo-6.svg'
+    },
+    {
+        id: 2,
+        src: '/images/logo/logo-4.svg'
+    },
+    {
+        id: 3,
+        src: '/images/logo/logo-5.svg'
+    },
+    {
+        id: 4,
+        src: '/images/logo/logo-3.svg'
+    }
+]
+
+
+

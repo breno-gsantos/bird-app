@@ -8,6 +8,7 @@ import ThirdSection from '@/components/Products/ThirdSection'
 import FourthSection from '@/components/Products/FourthSection'
 import SixthSection from '@/components/Products/SixthSection'
 import FifthSection from '@/components/Products/FifthSection'
+import SeventhSection from '@/components/Products/SeventhSection'
 
 const outfit = Outfit({ subsets: ['latin'] })
 
@@ -31,6 +32,7 @@ export default function RootLayout({
         <FourthSection />
         <FifthSection />
         <SixthSection />
+        <SeventhSection />
         {children}
         </body>
     </html>

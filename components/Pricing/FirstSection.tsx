@@ -84,6 +84,7 @@ export default function FirstSection(){
             <div className="md:flex p-10 md:space-x-10 space-y-10 md:space-y-0 items-center justify-center md:w-3/4 md:mx-auto">
                 <div className="border-green-500 p-10 rounded-lg border space-y-8">
                     <h1 className="text-2xl">Business</h1>
+                    <p className="text-xl">For Teams that need to create project plans with confidence</p>
                         {isActivePlan ? (
                             <p className="text-5xl font-semibold">U$39.99</p>
                         ) : (

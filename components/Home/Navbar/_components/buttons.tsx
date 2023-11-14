@@ -32,7 +32,7 @@ export default function ActionsButtons(){
                     </div>                           
                 </div>
 
-                <Link href='/contac' passHref>
+                <Link href='/contact' passHref>
                     Contact Sales
                 </Link>
 

@@ -1,7 +1,9 @@
+import FirstSection from "@/components/Contact/FirstSection";
+
 export default function ContactPage() {
     return (
-        <div>
-            contact
-        </div>
+        <section>
+            <FirstSection />
+        </section>
     )
 }

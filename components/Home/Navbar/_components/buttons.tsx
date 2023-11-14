@@ -40,7 +40,7 @@ export default function ActionsButtons(){
                     Sign In
                 </Button>
                 <Button className="bg-black text-md rounded:xl">
-                    Get Started
+                    <Link href='/pricing'>Get Started</Link>
                 </Button>
             </div>
         </div>

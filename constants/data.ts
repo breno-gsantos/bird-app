@@ -1,4 +1,4 @@
-import { CheckCircle2, Facebook, Instagram, Linkedin, Twitter, Youtube } from "lucide-react"
+import { Check, CheckCircle2, Facebook, Instagram, Linkedin, Twitter, Youtube } from "lucide-react"
 
 export const NavLinks = [
     {
@@ -301,6 +301,195 @@ export const LogoSection = [
         id: 4,
         src: '/images/logo/logo-3.svg'
     }
+]
+
+export const CheckSection = [
+    {
+        id: 1,
+        icon: Check,
+        label: 'Timeline'
+    },
+    {
+        id: 2,
+        icon: Check,
+        label: 'Unlimited free viewers'
+    },
+    {
+        id: 3,
+        icon: Check,
+        label: '5 Participants'
+    },
+    {
+        id: 4,
+        icon: Check,
+        label: '5 GB Storage'
+    },
+    {
+        id: 5,
+        icon: Check,
+        label: 'Unlimited Projects'
+    },
+    {
+        id: 6,
+        icon: Check,
+        label: 'Unlimited Project boards'
+    },
+    {
+        id: 7,
+        icon: Check,
+        label: '2 Factor Authentication'
+    },
+    {
+        id: 8,
+        icon: Check,
+        label: '24/7 Customer Support'
+    },
+    {
+        id: 9,
+        icon: Check,
+        label: '1 Company'
+    },
+    {
+        id: 10,
+        icon: Check,
+        label: '1 Team'
+    },
+    {
+        id: 11,
+        icon: Check,
+        label: '1 Owner'
+    },
+    {
+        id: 12,
+        icon: Check,
+        label: 'Custom Domain'
+    },
+]
+
+export const CheckSection2 = [
+    {
+        id: 1,
+        icon: Check,
+        label: 'Unlimited free viewers'
+    },
+    {
+        id: 2,
+        icon: Check,
+        label: 'Unlimited Participants'
+    },
+    {
+        id: 3,
+        icon: Check,
+        label: '100 GB Storage'
+    },
+    {
+        id: 4,
+        icon: Check,
+        label: 'Unlimited Projects'
+    },
+    {
+        id: 5,
+        icon: Check,
+        label: 'Unlimited Project boards'
+    },
+    {
+        id: 6,
+        icon: Check,
+        label: 'Forms'
+    },
+    {
+        id: 7,
+        icon: Check,
+        label: 'Rules'
+    },
+    {
+        id: 8,
+        icon: Check,
+        label: 'Permissions'
+    },
+    {
+        id: 9,
+        icon: Check,
+        label: 'Templates'
+    },
+    {
+        id: 10,
+        icon: Check,
+        label: 'Builder'
+    },
+    {
+        id: 11,
+        icon: Check,
+        label: 'Search'
+    },
+    {
+        id: 12,
+        icon: Check,
+        label: 'Milestones'
+    },
+]
+
+export const CheckSection3 = [
+    {
+        id: 1,
+        icon: Check,
+        label: 'Portfolios'
+    },
+    {
+        id: 2,
+        icon: Check,
+        label: 'Product Roadmap'
+    },
+    {
+        id: 3,
+        icon: Check,
+        label: 'Calendar'
+    },
+    {
+        id: 4,
+        icon: Check,
+        label: 'Timeline'
+    },
+    {
+        id: 5,
+        icon: Check,
+        label: 'Gantt Chart'
+    },
+    {
+        id: 6,
+        icon: Check,
+        label: 'Advanced Integrations'
+    },
+    {
+        id: 7,
+        icon: Check,
+        label: 'Forms'
+    },
+    {
+        id: 8,
+        icon: Check,
+        label: 'Rules'
+    },
+    {
+        id: 9,
+        icon: Check,
+        label: 'Permissions'
+    },
+    {
+        id: 10,
+        icon: Check,
+        label: 'Templates'
+    },
+    {
+        id: 11,
+        icon: Check,
+        label: 'Builder'
+    },
+    {
+        id: 12,
+        icon: Check,
+        label: 'Search'
+    },
 ]
 
 

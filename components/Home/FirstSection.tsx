@@ -4,6 +4,7 @@ import Link from "next/link";
 import {motion} from 'framer-motion';
 import Image from "next/image";
 import { MotionImages } from "@/constants/data";
+import { Button } from "../ui/button";
 
 export default function FirstSection() {
     return (
@@ -14,9 +15,9 @@ export default function FirstSection() {
                 </div>
                 <p className="text-lg md:text-xl mb-10 ">Want more efficiency in your organization? Bird is easy for all teams to use, so you can deliver quality work, faster.</p>
                 <div className="flex gap-4 justify-center">
-                    <button className="bg-black text-white px-6 py-3 rounded-sm">
-                        Get Started
-                    </button>
+                    <Button className="bg-black text-white px-6 py-3 rounded-sm" size='lg'>
+                        <Link href='/pricing'>Get Started</Link>
+                    </Button>
                     <Link href='/contact'>
                         <button className="bg-gray-500 text-white px-6 py-3 rounded-sm">
                             See how it works
